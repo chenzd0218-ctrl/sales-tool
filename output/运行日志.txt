@@ -1,0 +1,14 @@
+start
+[00:32:25] 模板：/Users/chenzhida/Desktop/sales_tool/uploads/双畅享首销日报模板.xlsx
+[00:32:25] 数据：/Users/chenzhida/Desktop/sales_tool/uploads/SalesReportSeriaCnList20260401104313.xlsx
+[00:32:25] 首销日期：2026-04-02
+[00:32:25] 产品1：90Plus
+[00:32:25] 产品2：90Promax
+[00:32:25] 原始数据：159
+[00:32:25] 有效数据：2
+[00:32:25] 首销日有效：2
+[00:32:25] 首销5日有效：2
+[00:32:25] 结果Excel输出完成
+[00:32:25] 文本通报输出完成
+[00:32:25] 标准销量表输出完成
+[00:32:25] 全部完成
