@@ -1,6 +1,15 @@
 function highlight(text) {
     if (!text) return "";
-    return text.replace(/(\d+)/g, '<span class="num">$1</span>');
+
+    let html = text;
+
+    // 先高亮“合计：数字”
+    html = html.replace(/(合计[：:]\s*)(\d+)(\s*台)?/g, '$1<span class="sum">$2</span>$3');
+
+    // 再高亮“：数字台”
+    html = html.replace(/([：:]\s*)(\d+)(\s*台)/g, '$1<span class="num">$2</span>$3');
+
+    return html;
 }
 
 async function run() {
